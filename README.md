@@ -68,7 +68,7 @@ python get_combination_qav.py liar
 python last_qav.py liar`
 
 ## Evaluation
-(1) Run 'python evaluation.py liar' to get first part.
+(1) Run `python evaluation.py liar` to get first part.
 (2) Run this code to get retrieved messages.
 `cd retrieval_lm
 python passage_retrieval.py \
@@ -78,6 +78,6 @@ python passage_retrieval.py \
     --output_dir YOUR_OUTPUT_FILE \
     --n_docs 20`
 (3) Run this code to get remaining part.
-'python evaluation2.py liar'
+`python evaluation2.py liar`
 
 
